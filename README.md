@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-The **Job Portal** is a modern web application designed to streamline the job application process. It features a **multi-step form** for applicants, ensuring a smooth and intuitive experience. Built using **React (Vite), TypeScript, Tailwind CSS, ShadCN, and Context API**, the platform allows users to enter and review their information before submission.
+The **Job Portal** is a Tutorial project that explains the general overview **CONTEX API**. It features a **multi-step form** for applicants, ensuring a smooth and intuitive experience. Built using **React (Vite), TypeScript, Tailwind CSS, ShadCN, and Context API**, the platform allows users to enter and review their information before submission.
 
 ## 🎯 Features
 
@@ -14,7 +14,7 @@ The **Job Portal** is a modern web application designed to streamline the job ap
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React (Vite), TypeScript, Tailwind CSS, ShadCN
+- **Frontend:** React (Vite), TypeScript/JavaScripr, Tailwind CSS, ShadCN
 - **State Management:** Context API
 - **Icons & UI:** Lucide-react, ShadCN components
 
@@ -32,36 +32,21 @@ Ensure you have the following installed:
 
 ```sh
 # Clone the repository
-git clone https://github.com/your-username/job-portal.git
+git clone https://github.com/abdul-busybrain/job-portal
 cd job-portal
 
 # Install dependencies
-yarn install  # or npm install
+npm install  # or yarn install
 ```
 
 ### 3️⃣ Running the App
 
 ```sh
 # Start the development server
-yarn dev  # or npm run dev
+npm run dev  # or yarn dev
 ```
 
 Then, open **http://localhost:5173/** in your browser.
-
-## 📂 Project Structure
-
-```
-job-portal/
-│── src/
-│   ├── components/       # Reusable UI components (Buttons, Alerts, etc.)
-│   ├── context/          # Context API for form state management
-│   ├── pages/            # Application pages (Steps, Review, etc.)
-│   ├── App.tsx           # Main app component
-│   ├── main.tsx          # Entry point
-│── public/               # Static assets
-│── package.json          # Project dependencies
-│── README.md             # Documentation
-```
 
 ## ✨ How It Works
 
@@ -74,8 +59,7 @@ job-portal/
 
 1. **Personal Information** (Name, Email)
 2. **Job Preferences** (Job Title, Experience Level)
-3. **Upload Resume**
-4. **Review & Submit** (Final review before submission)
+3. **Review & Submit** (Final review before submission)
 
 ### **Alerts & Feedback**
 
@@ -101,9 +85,14 @@ We welcome contributions! If you’d like to contribute:
 4. Push the branch (`git push origin feature-name`)
 5. Open a Pull Request
 
-## 👥 Author
+## 📬 Contact
 
-**Auwal Abdullahi Haruna** – [LinkedIn](https://linkedin.com/in/yourprofile) | [Twitter](https://twitter.com/yourhandle)
+For any inquiries, feedback, or collaboration opportunities, feel free to reach out:
+
+- 👨‍💻 **Auwal Abdullahi Haruna Portfolio:** [https://abdullahibusybrain.vercel.app](#)
+- 🔗 **LinkedIn:** [https://www.linkedin.com/in/abdullahi-auwal-haruna-3b298422b](#)
+- 🐦 **X (Twitter):** [https://x.com/abdul_busybrain](#)
+- 📧 **Email:** [abdullahiauwalharun@gmail.com](#)
 
 ---
 
