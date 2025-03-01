@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 import { useState } from "react";
 import { Terminal } from "lucide-react";
 
-function ReviewSubmit({ prevStep }) {
+function ReviewSubmit({ prevStep, resetForm }) {
   const { formData } = useJobForm();
   const [submitted, setSubmitted] = useState(false);
 
@@ -12,11 +12,12 @@ function ReviewSubmit({ prevStep }) {
     setSubmitted(true);
     setTimeout(() => {
       setSubmitted(false);
+      resetForm();
     }, 3000);
   };
 
   return (
-    <div className="p-4">
+    <div className="p-10">
       <h2 className="text-xl font-semibold mb-4"> Review your information</h2>
       <p>
         <strong>Name</strong>: {formData.name}
@@ -56,15 +57,5 @@ function ReviewSubmit({ prevStep }) {
     </div>
   );
 }
-
-const AlertComponent = () => {
-  return (
-    <Alert className="mt-4">
-      <Terminal className="h-4 w-4" />
-      <AlertTitle>Heads up!</AlertTitle>
-      <AlertDescription>Application Submitted! 🎉</AlertDescription>
-    </Alert>
-  );
-};
 
 export default ReviewSubmit;
